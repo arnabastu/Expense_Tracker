@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vite
+.vite/
+vite-env.d.ts
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Capacitor
+capacitor.config.json
+.capacitor/
+
+# Android specific
+android/app/build/
+android/.gradle/
+android/gradlew
+android/gradlew.bat
+local.properties
+*.apk
+*.aar
+*.jks
+*.keystore
+
+# iOS specific (if added later)
+ios/Pods/
+ios/Podfile.lock
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+.temp/
